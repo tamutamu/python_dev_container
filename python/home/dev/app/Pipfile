@@ -6,6 +6,9 @@ name = "pypi"
 [packages]
 boto3 = "*"
 awscli = "*"
+autopep8 = "*"
+warrant = "*"
+boto3-stubs = {extras = ["cognito-idp", "essential"], version = "*"}
 
 [dev-packages]
 
